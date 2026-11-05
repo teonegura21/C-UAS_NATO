@@ -1,0 +1,19 @@
+drone_name,side,classification,uav_model/manufacturer,protocol,serial_number,signal_frequency_band,basis
+Heidrun,*,Fixed Wing UAS,Unknown,Unknown,Unknown,Unknown,kinematics (truth_summary.md): 3292 s airborne over 5 flights; never hovers; 11-20 m/s; same profile as Vector
+Vector,*,Fixed Wing UAS,Unknown,Unknown,Unknown,Unknown,name: Quantum-Systems Vector fixed-wing eVTOL (kinematics agree); model not in dropdown
+Quantum Vector,*,Fixed Wing UAS,Unknown,Unknown,Unknown,Unknown,name: Quantum-Systems Vector fixed-wing eVTOL (kinematics agree); model not in dropdown
+Skyranger,*,Rotary Wing UAS,Unknown,Unknown,Unknown,Unknown,kinematics: hovers in 2 of 3 flights up to 87 m (a multirotor; third flight never leaves the ground)
+DJI3,*,Rotary Wing UAS,DJI Mavic 3 Enterprise,DJI Ocusyinc,Unknown,Unknown,metadata_report.md S1-I1: STUG model + protocol (10 rows); its serial F5FHD233M00DEYG6 is also matched to an FPV flight in S3-I1 so left Unknown
+Mavic 3,*,Rotary Wing UAS,DJI Mavic 3,DJI Ocusyinc,F45TB21BR1AE03FP,Unknown,metadata_report.md S1-I1: CEQX/STUG/ILYS 125 serial rows; protocol 86 % Ocusync
+DJI Mavic 3,*,Rotary Wing UAS,DJI Mavic 3,Unknown,Unknown,Unknown,name (no metadata reaches this flight in S3-I1)
+FPV,*,Rotary Wing UAS,FPV,Unknown,Unknown,Unknown,name: custom FPV quadcopter
+DJI FPV,*,Rotary Wing UAS,Unknown,Unknown,Unknown,Unknown,name: DJI FPV multirotor; dropdown 'FPV' may or may not cover it
+Autel Evo2,BLUE,Rotary Wing UAS,Autel Drone,Wifi,1748FEV2HL7824051124,Unknown,whitelist serial (evaluation Friendly list: Autel Evo 2); S2-I2 CEQX/STUG 104 serial rows; STUG protocol wifi 99 %
+Autel Evo2,*,Rotary Wing UAS,Autel Drone,Unknown,Unknown,Unknown,name (RED copies of the same model; the BLUE serial must not be inherited)
+Autel Evo 2,*,Rotary Wing UAS,Autel Drone,Unknown,Unknown,Unknown,name (S4-I4 flight never airborne)
+Anafi,*,Rotary Wing UAS,Parrot Anafi,Unknown,Unknown,Unknown,name
+Parrot Anafi,*,Rotary Wing UAS,Parrot Anafi,Unknown,Unknown,Unknown,name
+Matrice 300,BLUE,Rotary Wing UAS,MTRC 300R,Unknown,1ZNBJAB00C00MQ,Unknown,whitelist (evaluation Friendly list: DJI Matrice 300R 1ZNBJAB00C00MQ); no metadata reaches it in testing S3-I1
+Matrice 300,*,Rotary Wing UAS,MTRC 300R,Unknown,Unknown,Unknown,name: DJI Matrice 300 RTK
+Skydio X10D,*,Rotary Wing UAS,Unknown,Unknown,Unknown,Unknown,name: Skydio X10D quadcopter; model not in dropdown
+RQ,*,Unknown,Unknown,Unknown,Unknown,Unknown,single flight that never leaves the ground: no evidence
